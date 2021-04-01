@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Suggestions /> should render 1`] = `
+<div
+  className="suggestions"
+>
+  <ul
+    className="suggestions__list"
+  >
+    <li
+      className="suggestions__list-item"
+      key="1"
+    >
+      <div
+        className="suggestion"
+      >
+        <span
+          className="suggestion__badge suggestion__badge--airport"
+        >
+          Airport
+        </span>
+        <div
+          className="suggestion__info-holder"
+        >
+          <div
+            className="suggestion__title"
+          >
+            Manchester Airport
+             
+            (MAN)
+          </div>
+          <div
+            className="suggestion__subtext"
+          >
+            Manchester, 
+            Greater Manchester, 
+            United Kingdom
+          </div>
+        </div>
+      </div>
+      <hr
+        className="hr"
+      />
+    </li>
+  </ul>
+</div>
+`;

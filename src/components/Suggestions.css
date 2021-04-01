@@ -1,0 +1,90 @@
+.suggestions {
+  border: 1px solid #262626;
+  border-radius: 2px;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+.suggestions__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.suggestions__list-item {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.suggestions__list-item:hover {
+  background-color: #e7f4fe;
+}
+
+.suggestion {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 8px;
+}
+
+.suggestion__no-results {
+  background-color: #fff;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.suggestion__badge {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1rem;
+  min-width: 5rem;
+  padding: 2px 4px;
+  text-align: center;
+}
+
+.suggestion__badge--airport {
+  background-color: #961412;
+}
+
+.suggestion__badge--city {
+  background-color: #0a63b0;
+}
+
+.suggestion__badge--station {
+  background-color: #494949;
+}
+
+.suggestion__badge--district {
+  background-color: #017c44;
+}
+
+.suggestion__badge--region {
+  color: #222;
+  background-color: #f1c74c;
+}
+
+.suggestion__info-holder {
+  padding-left: 8px;
+}
+
+.suggestion__title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.suggestion__subtext {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.hr {
+  border: 0;
+  border-top: 1px solid #e7e7e7;
+  margin: 0;
+}

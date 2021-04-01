@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBox /> should render 1`] = `
+<div
+  className="search-box"
+>
+  <h3
+    className="search-box__heading"
+  >
+    Where are you going?
+  </h3>
+  <div
+    className="search-box__input-holder"
+  >
+    <div
+      className="input-group"
+    >
+      <label
+        className="input-group__label"
+        htmlFor="pick-up-location"
+      >
+        Pick-up Location
+      </label>
+      <div
+        className="input-group__text-holder"
+      >
+        <input
+          className="input-group__text-input"
+          id="pick-up-location"
+          name="Pick-up Location Input"
+          onChange={[Function]}
+          placeholder="city, airport, station, region, district…"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
